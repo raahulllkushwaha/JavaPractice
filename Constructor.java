@@ -1,12 +1,12 @@
 // import java.util.Scanner;
 
 class MyEmployee {
-    
+
     private int id;
     public String name;
 
     public MyEmployee() {
-        id = 12;
+        id = 78;
         name = "Rahul";
     }
 
@@ -36,6 +36,7 @@ public class Constructor {
     public static void main(String[] args) {
         MyEmployee emp1 = new MyEmployee();
         MyEmployee emp = new MyEmployee("Rahul Kushwaha");
+
         System.out.println(emp.getId());
         System.out.println(emp.getName());
 
