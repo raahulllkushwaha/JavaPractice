@@ -16,7 +16,7 @@ class Animal {
 
 class Dog extends Animal {
 
-    Dog(String name){
+    Dog(String name) {
         super(name);
     }
 
@@ -26,11 +26,11 @@ class Dog extends Animal {
 }
 
 class Cat extends Animal {
-    Cat(String name){
+    Cat(String name) {
         super(name);
     }
 
-    void meow(){
+    void meow() {
         System.out.println(name + " is meowing");
     }
 }
@@ -39,12 +39,15 @@ public class inheritance {
     public static void main(String[] args) {
         Dog d = new Dog("Nax");
         Cat c = new Cat("kitten");
-        
+
         d.eat();
         d.sleep();
         d.bark();
 
         c.sleep();
         c.meow();
+        //Hierarchical Inheritance Example
+
+
     }
 }
